@@ -1,0 +1,18 @@
+h1, p{
+    text-align: center;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+li:active{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+ul, ol{
+    list-style: none;
+}
