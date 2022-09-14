@@ -1,0 +1,43 @@
+h1, h3   {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p:last-child {
+    margin-bottom: 50px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+label {
+    margin-right: 5px;
+    background-color: blue;
+    padding: 10px 0;
+    border: 2px solid black;
+}
+
+
+.preferencias {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+input:nth-last-child(2){
+    align-items: center;
+    margin-right: 5px;
+    width: 30%;
+}
