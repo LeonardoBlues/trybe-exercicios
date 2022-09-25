@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+
+  <form action="" method="get">
+    <section>
+      <label for="">Nome:
+        <input type="text" name="" class="nomeEmail" id="fullName" minlength="10" maxlength="40">
+      </label>
+      <label for="">Email:
+        <input type="email" name="" class="nomeEmail" id="email" minlength="10" maxlength="50">
+      </label>
+    </section>
+
+    <h3>Destino Preferido:</h3>
+    <section>
+      <label for="escolhaDestino">Cidade
+        <input type="radio" name="escolhaDestino" id="">
+      </label>
+
+      <label for="escolhaDestino">Campo
+        <input type="radio" name="escolhaDestino" id="">
+      </label>
+
+      <label for="escolhaDestino">Praia
+        <input type="radio" name="escolhaDestino" id="">
+      </label>
+
+      <label for="escolhaDestino">Montanhas
+        <input type="radio" name="escolhaDestino" id="">
+      </label>
+    </section>
+
+    <section>
+      <label for="">
+        <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+        <textarea name="" id="why" cols="79" rows="4" maxlength="500"></textarea>
+      </label>
+    </section>
+
+    <section>
+      <label for="">
+        <h3>Qual a melhor data para realizar sua viagem?</h3>
+        <input type="date" name="" id="date">
+      </label>
+    </section>
+
+    <section>
+      <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <input type="checkbox" name="" id="">
+      </label>
+    </section>
+
+    <section>
+      <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+        futuros.
+        <input type="checkbox" name="" id="divulgaFotos" required>
+      </label>
+    </section>
+
+    <section>
+      <button type="submit" class="bnt" id="enviar" disabled>Enviar</button>
+      <button type="button" class="bnt" id="limpar" type="button">Limpar</button>
+    </section>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
