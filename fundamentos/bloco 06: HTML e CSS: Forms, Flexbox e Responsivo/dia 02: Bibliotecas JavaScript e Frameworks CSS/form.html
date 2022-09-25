@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+</head>
+
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+
+  <form action="" method="get" class="container" id="form">
+    <section>
+      <label for="">Nome:
+        <input type="text" name="" class="nomeEmail form-control" id="fullName">
+      </label>
+      <label for="">Email:
+        <input type="email" name="" class="nomeEmail form-control" id="email">
+      </label>
+    </section>
+
+    <h3>Destino Preferido:</h3>
+    <section id="escolhaDestino">
+      <label for="escolhaDestino">Cidade
+        <input type="radio" name="escolhaDestino" id="" class="form-check-input">
+      </label>
+
+      <label for="escolhaDestino">Campo
+        <input type="radio" name="escolhaDestino" id="" class="form-check-input">
+      </label>
+
+      <label for="escolhaDestino">Praia
+        <input type="radio" name="escolhaDestino" id="" class="form-check-input">
+      </label>
+
+      <label for="escolhaDestino">Montanhas
+        <input type="radio" name="escolhaDestino" id="" class="form-check-input">
+      </label>
+    </section>
+
+    <section>
+      <label for="">
+        <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+        <textarea name="" id="why" class="form-control" rows="3"></textarea>
+      </label>
+    </section>
+
+    <section>
+      <label for="">
+        <h3>Qual a melhor data para realizar sua viagem?</h3>
+        <input type="text" id="datepicker">
+      </label>
+    </section>
+
+    <section>
+      <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <input type="checkbox" name="" id="">
+      </label>
+    </section>
+
+    <section>
+      <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+        futuros.
+        <input type="checkbox" name="" id="divulgaFotos" required>
+      </label>
+    </section>
+
+    <section>
+      <button type="submit" class="bnt btn btn-primary" id="enviar" disabled>Enviar</button>
+      <button type="button" class="bnt btn btn-warning" id="limpar">Limpar</button>
+    </section>
+  </form>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+</body>
+
+</html>
